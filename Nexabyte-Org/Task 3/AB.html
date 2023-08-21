@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitNess Gym | By Tanay Rambhia</title>
+    <link rel="stylesheet" href="style12.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Your common CSS styles here */
+        /* Add CSS for the layout */
+        .max-width {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .home-content, .services-content, .contact-content, .pricing-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .home-image, .services-image, .contact-image, .pricing-image {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .home-content {
+            margin-right: 20px; /* Add margin to the right side of the text */
+        }
+
+        .home-image img, .services-image img, .contact-image img, .pricing-image img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Rest of your HTML code remains unchanged -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>FitNess
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#pricing">Pricing</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="max-width">
+            <div class="home-content" style="margin-right: 20px;"> <!-- Added margin-right -->
+                <h1>Welcome to FitNess Gym</h1>
+                <p>Get in shape and stay healthy with our world-class facilities and expert trainers.</p>
+                <button class="btn">Learn More</button>
+            </div>
+          
+        </div>
+    </section>
+    
+
+    <section id="services" class="services">
+        <div class="max-width">
+            <div class="services-content">
+                <h1>Our Services</h1>
+                <div class="service">
+                    <i class="fas fa-dumbbell"></i>
+                    <h2>Personal Training</h2>
+                    <p>Get personalized training plans from our experienced trainers.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>Cardio Workouts</h2>
+                    <p>Enjoy our state-of-the-art cardio equipment for effective workouts.</p>
+                </div>
+                <!-- Add more services here -->
+            </div>
+            <div class="services-image">
+                <img src="C:\Users\user\Desktop\Tanay\Internship\16_Nexabyte-Org\Task 3\semi-private.jpg" alt="Services Image" >
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="max-width">
+            <div class="contact-content">
+                <h1>Contact Us</h1>
+                <p>Have questions or feedback? Reach out to us!</p>
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="C:\Users\user\Desktop\Tanay\Internship\16_Nexabyte-Org\Task 3\Contact.png" alt="Contact Image"  style="width: 40%; height: 40%;">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h1>Pricing Plans</h1>
+        <div class="max-width">
+            <div class="pricing-content">
+                <div class="plan">
+                    <br> <img src="C:\Users\user\Desktop\Tanay\Internship\16_Nexabyte-Org\Task 3\Pricing1.PNG" > <br>
+                    <button class="btn">Get Started</button> 
+                </div>
+            </div>
+            <div class="pricing-content">
+                
+                <div class="plan">
+                    <br> <img src="C:\Users\user\Desktop\Tanay\Internship\16_Nexabyte-Org\Task 3\Pricing2.PNG" > <br>
+                    <button class="btn">Get Started</button>
+                </div>
+            </div>
+         
+        </div>
+    </section>
+</body>
+</html>
